@@ -10,25 +10,25 @@
 ```
 curl --location 'localhost:8080/api/saludo?lang=es'
 ```
-![img.png](img.png)
+![img.png](src/test/resources/img.png)
 
 * Endpoint para ver mensaje en ingles:
 ```
 curl --location 'localhost:8080/api/saludo?lang=en'
 ```
-![img_1.png](img_1.png)
+![img_1.png](src/test/resources/img_1.png)
 
 * Endpoint para ver todos los productos disponibles:
 ```
 curl --location 'localhost:8080/api/productos'
 ```
-![img_2.png](img_2.png)
+![img_2.png](src/test/resources/img_2.png)
 
 * Endpoint para ver un producto:
 ```
 curl --location 'localhost:8080/api/productos/1'
 ```
-![img_3.png](img_3.png)
+![img_3.png](src/test/resources/img_3.png)
 
 *Endpoint para crear un producto:
 ```
@@ -40,7 +40,7 @@ curl --location 'localhost:8080/api/productos' \
 "precio": 560.99
 }'
 ```
-![img_4.png](img_4.png)
+![img_4.png](src/test/resources/img_4.png)
 
 * Endpoint para modificar un producto:
 ```
@@ -51,15 +51,18 @@ curl --location --request PUT 'localhost:8080/api/productos/1' \
 "precio": 1850
 }'
 ```
-![img_5.png](img_5.png)
+![img_5.png](src/test/resources/img_5.png)
 
 * Endpoint para eliminar un producto:
 ```
 curl --location --request DELETE 'localhost:8080/api/productos/3' \
 --data ''
 ```
-![img_6.png](img_6.png)
+![img_6.png](src/test/resources/img_6.png)
 
 ## Resultado de los cambios:
   
-![img_7.png](img_7.png)
+![img_7.png](src/test/resources/img_7.png)
+
+## Prueba Unitaria
+![img.png](src/test/resources/img.png)
